@@ -1,0 +1,120 @@
+<link rel="stylesheet" href="templates/Tps-Balance/Tps-Balance/Tps-Balance-tab.css" />
+<script src="templates/Tps-Balance/Tps-Balance/Tps-Balance-tab.js"></script>
+<div class="col-md-12 Formulamanagement-tabb">
+    <div class="col-md-12">
+        <!-- <div class="row">
+            <div class="col-md-12 summary-heading">
+                    <span class="heading-item pull-right" style="padding-right: 10px;">
+                        <span class="label">Last Updated Timestamp &nbsp;:</span>
+                        <span class="count" id="majorTime"></span>
+                    </span>
+                    <span class="heading-item pull-right" style="padding-right: 10px; width: 95px;"></span>
+            </div>
+
+        </div> -->
+        <div class="row">
+            <div class="col-md-12 card-col">
+
+                <div class="card">
+                    <div class="header">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h3 style="color: #fff;margin-left: 1vw;">TPS Balance</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-12 form-group">
+                            <label for="drpdownUnitName" class="col-md-1 col-form-label" style="color: #fff; font-size: 1.2em; margin-top: 0.1em; font-weight: lighter;">Table Name:</label>
+                               
+                            <div class="col-md-2">
+                                    <div class="form-floating mb-3 mb-md-0">
+                                        <select class="form-control" id="drpdownTableName"></select>
+                                    </div>
+                              </div>
+                              <label for="drpdownTableType" class="col-md-1 col-form-label" style="color: #fff; font-size: 1.2em; margin-top: 0.1em; font-weight: lighter;">Table Type:</label>
+                              <div class="col-md-2">
+                                <div class="form-floating mb-3 mb-md-0">
+                                    <select class="form-control" id="drpdownTableType"></select>
+                                </div>
+                              </div>
+                              <div class="col-md-2"></div>
+                              <div class="col-md-2">
+                                <input class="btn btn-primary btn-block" id="addRow" onclick="addRow()" type="button" value="ADD" style="display: none;" />
+                              </div>
+                              <div class="col-md-2">
+                                    <input class="btn btn-primary btn-block" id="saveTable" onclick="saveTable()" type="button" value="Save" />
+                              </div>
+                              
+                        </div>
+                        <div class="row mt-4">
+                            <!-- class="tableheight" -->
+                            <div class="col-md-12" style="margin-left: 1em; margin-top: 1em;">
+                                <div id="typediv" style="display: none;">
+                                    <table id="datatablesSimple1" style="width: 96%;">
+                                        <thead>
+                                            <tr>
+                                                <th style="width: 25em;">Label</th>
+                                                <th>Kpi Name</th>
+                                                <th style="width: 10em;">Progress Color</th>
+                                                <th style="width: 10em;">Action</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody id="datatablebody">
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <!-- <div id="typedivlosses" style="display: none;">
+                                    <table id="datatablesLosses" style="width: 96%;">
+                                        <thead>
+                                            <tr>
+                                                <th style="width: 25em;">Label</th>
+                                                <th>Kpi Name</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <td><input class="form-control" id="lossesLabel" type="text" placeholder="Enter Column Name" value=""/></td>
+                                            <td><select class="form-control js-example-basic-single drpDwndatatype2" type="text" placeholder=""></select></td>
+                                        </tbody>
+                                    </table>
+                                </div> -->
+                                <!-- <div id="tpTypeDiv" style="display: none;">
+                                    <table id="datatablesTp" style="width: 96%;">
+                                        <thead>
+                                            <tr>
+                                                <th style="width: 15em;">Type</th>
+                                                <th style="width: 20em;">Label</th>
+                                                <th>Kpi Name</th>
+                                                <th style="width: 15em;">UOM</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Temperature</td>
+                                                <td><input class="form-control" id="lossesLabel" type="text" placeholder="" value=""/></td>
+                                                <td><select class="form-control js-example-basic-single drpDwndatatype2" type="text" placeholder=""></select></td>
+                                                <td><input class="form-control" id="lossesLabel" type="text" placeholder="" value=""/></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Pressure</td>
+                                                <td><input class="form-control" id="lossesLabel" type="text" placeholder="" value=""/></td>
+                                                <td><select class="form-control js-example-basic-single drpDwndatatype2" type="text" placeholder=""></select></td>
+                                                <td><input class="form-control" id="lossesLabel" type="text" placeholder="" value=""/></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>    
+                    <br>
+                    <div class="footer">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    
+</div>

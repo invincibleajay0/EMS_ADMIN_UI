@@ -1,0 +1,106 @@
+<link rel="stylesheet" href="templates/OverallSECGraph/OverallSECGraph/OverallSECGraph-tab.css" />
+<script src="templates/OverallSECGraph/OverallSECGraph/OverallSECGraph-tab.js"></script>
+<div class="col-md-12 Formulamanagement-tabb">
+    <div class="col-md-12">
+        <!-- <div class="row">
+            <div class="col-md-12 summary-heading">
+                    <span class="heading-item pull-right" style="padding-right: 10px;">
+                        <span class="label">Last Updated Timestamp &nbsp;:</span>
+                        <span class="count" id="majorTime"></span>
+                    </span>
+                    <span class="heading-item pull-right" style="padding-right: 10px; width: 95px;"></span>
+            </div>
+
+        </div> -->
+        <div class="row">
+            <div class="col-md-12 card-col">
+
+                <div class="card">
+                    <div class="header">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h3 style="color: #fff;margin-left: 1vw;">Overall Specific Energy Consumption Trend (Graph)</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-12 form-group">
+                            <label for="drpdownUnitName" class="col-sm-2 col-form-label" style="color: #fff; font-size: 1.5em; margin-top: 0.1em; font-weight: lighter;">Unit Name :</label>
+                               <div class="col-md-2">
+                                    <div class="form-floating mb-3 mb-md-0">
+                                        <!-- <label>Unit Name :</label> -->
+                                        <select class="form-control" id="drpdownUnitName">
+                                             <option value="fccu">Fccu</option>
+                                             <option value="avu1">Avu1</option>
+                                             <option value="Avu2">Avu2</option>
+                                             <option value="bsvi">Bsvi</option>  
+                                        </select>
+                                    </div>
+                              </div>
+                              <div class="col-md-2"></div>
+                              <!-- <label for="drpdownUOM" class="col-sm-2 col-form-label" style="color: #fff; font-size: 1.5em; margin-top: 0.1em; font-weight: lighter;">Mode :</label> -->
+                               <div class="col-md-2">
+                                    <div class="form-floating mb-3 mb-md-0">
+                                        <!-- <label>Unit Name :</label> -->
+                                        <!-- <select class="form-control" id="drpdownUOM">
+                                             <option value="Gcal/hr">Gcal/hr</option>
+                                             <option value="INR/hr">INR/hr</option>
+                                               
+                                        </select> -->
+                                    </div>
+                              </div>
+                              <div class="col-md-4">
+                                    <input class="btn btn-primary btn-block" id="saveTable" onclick="saveTable()" type="button" value="Save" />
+                              </div>
+                              
+                        </div>
+                        <div class="row mt-4">
+                            <!-- class="tableheight" -->
+                            <div class="col-md-12" style="margin-left: 1em; margin-top: 1em;">
+                                <table id="datatablesSimple1" style="width: 96%;">
+                                    <thead>
+                                        <tr>
+                                            <th style="width: 12em;">Type</th>
+                                            <th style="width: 12em;">Label</th>
+                                            <th>KPI Name</th>
+                                            <th style="width: 8em;">UOM</th>
+                                            
+                                        </tr>
+                                    </thead>
+                                    <tbody id="datatablebody">
+                                    </tbody>
+                                </table>
+
+                                <div class="row mb-3">
+                                    <div class="col-md-12">
+                                        <div class="col-md-7">
+                                            <div class="form-floating mb-3 mb-md-0">
+                                            <!-- <input class="form-control" id="inputFirstName" type="text" placeholder="Enter your first name"/> -->
+                                            <label id="ERRORtblconfig" style="color: red;"></label>
+                                            </div>
+                                        </div>
+                                        <!-- <div class="col-md-2">
+                                            <input class="btn btn-primary btn-block" id="addRow" type="button" value="Add row"  onclick="addRow()" />
+                                        </div>
+                                        <div class="col-md-3">
+                                                <input class="btn btn-primary btn-block" id="saveTable" onclick="saveTable()" type="button" value="Save Table" />
+                                        </div> -->
+
+                                    </div>
+                                    
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>    
+                    <br>
+                    <div class="footer">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    
+</div>
